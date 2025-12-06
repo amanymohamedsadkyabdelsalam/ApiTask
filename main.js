@@ -26,7 +26,6 @@ async function displayProducts() {
            <p class="catg"><span>Rating : </span>${element.rating.rate} (based on ${element.rating.count} reviews)</p>
         </div>
        `;
-       di.appendChild(product);
     });
   } catch (error) {
     di.innerHTML = `<p>Failed to load products </p>`;
